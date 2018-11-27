@@ -1,0 +1,20 @@
+.qqheader{
+	height:44px;
+	color:white;
+	line-height: 44px;
+	text-align: center;
+	background:#31c27c;
+}
+.tab{
+	height:40px;
+	list-style: none;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.tab li a{
+	color:black;
+	 text-decoration:none;
+	display: inline-block;
+}

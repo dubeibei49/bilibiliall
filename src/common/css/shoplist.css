@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.shopHeader{
+	height:40px;
+	width:100%;
+	background:orange;
+	color:white;
+	text-align: center;
+	line-height: 40px;
+}
+.shoplist ul{
+	width:100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	list-style: none;
+}
+.shoplist ul li{
+	height:130px;
+	width:100%;
+	border-bottom: 1px solid #ccc;
+}
+.shoplist ul img{
+	width:100px;
+	height:100px;
+}
+.dls{
+	display: flex;
+	flex-direction: row;
+	padding:14px 10px;
+	box-sizing: border-box;
+}
+.dls dd{
+	margin-left: 10px;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.dls dd p{
+	margin: 0;
+}
+.dls dd b{
+	line-height: 30px;
+	color:orange;
+}
+.dimgray{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color:dimgray;
+}
+.addshopcar{
+	margin-left: 30px;
+}
+
+
+
+
+
+

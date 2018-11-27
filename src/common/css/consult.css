@@ -1,0 +1,32 @@
+.box{
+	width:100%;
+	overflow: hidden;
+}
+.left{
+	width:20%;
+	background:#f3f5f7;
+}
+.leftul li{
+	height:50px;
+	padding: 0 5px;
+	text-align: center;
+}
+.left,.right{
+	overflow-y: scroll;
+}
+.right{
+	display: flex;
+	flex-direction: column;
+}
+.right ul{
+	display: flex;
+	flex-direction: column;
+}
+.right ul li{
+	display: flex;
+	flex-direction: column;
+}
+.box div{
+	display: flex;
+	flex-direction: row;
+}

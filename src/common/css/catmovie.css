@@ -1,0 +1,76 @@
+*{
+	overflow-x: hidden;
+}
+.nav{
+	height:40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 10px;
+	box-sizing: border-box;
+	align-items: center;
+	background:none;
+	border-bottom: 1px solid #ccc;
+}
+.nav a{
+	appearance: none;
+	color:black;
+}
+.activenav{
+	color:red;
+	border-bottom: 2px solid red;
+}
+.nav div b{
+	line-height:41px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.movielist{
+	display: flex;
+	flex-direction: column;
+}
+.movielist li{
+	height:114px;
+	border-bottom: 1px solid #ccc;
+}
+.movielist li dl{
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	margin: 0;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+.movielist li dl img{
+	width:64px;
+	heighT:90px;
+}
+.rleft{
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.rleft h3{
+	margin: 0;
+	padding: 0;
+}
+.movielist li dl dt{
+	width:95px;
+}
+.movielist li dl dd{
+	display: flex;
+	flex-direction: row;
+}
+.btn{
+	width:75px;
+	height:30px;
+	border-radius: 5px;
+	color:white;
+	border: none;
+	background:red;
+}
+.rleft .dian{
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
